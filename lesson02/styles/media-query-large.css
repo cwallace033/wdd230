@@ -1,0 +1,28 @@
+
+@import url('https:fonts.googleleapis.com/css2?family=Roboto&display=swap');
+@media screen and (min-width: 500px){
+
+    body {
+        font-family: 'Roboto', arial, sans-serif;
+    }
+
+    header, main, footer {
+        max-width: 640px;
+        margin: 1rem auto;
+        border: 1px solid black;
+        padding: 1rem;
+        background-color: rgb(112, 133, 191);
+    }
+
+    header {
+        background-color: black;
+        color: white;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        
+    }
+}
