@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@200&display=swap');
+
+@media (min-width: 1150px){
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+    
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    .card {
+        display: inline-block;
+        width: 47%;
+        margin-left: 1.4%;
+    }
+}

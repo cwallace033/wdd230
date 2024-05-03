@@ -1,6 +1,6 @@
 
 @import url('https:fonts.googleleapis.com/css2?family=Roboto&display=swap');
-@media screen and (min-width: 500px){
+@media (min-width: 500px){
 
     body {
         font-family: 'Roboto', arial, sans-serif;

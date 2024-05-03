@@ -2,30 +2,23 @@
 
 
 body {
-    display: grid;
-    grid-template-columns: 0.5fr 2fr 2fr 2fr 0.5fr;
-    justify-items: center;
-    align-content: center;
     font-family: 'poppins', arial, sans-serif;
-    
-  }
+}
 
 header {
-    grid-column: 1/5;
     background-color: lightblue;
-    width: 75%;
+    align-items: center;
 }
 
 header img {
     display: inline-block;
     height: 100px;
     padding: 30px;
-    margin-left: 25%;
+    margin-left: 32%;
     margin-right: auto;
     vertical-align: middle;
-
-
 }
+
 h1 {
     display: inline-block;
     text-align: center;
@@ -36,31 +29,29 @@ h1 {
 }
 
 nav {
-    width: 75%;
-    display: block;
-    justify-content: space-around;
-    grid-column: 1/5;
-    background-color: black;
+	background-color: #36454f;
+	margin: 0 auto;
 }
 
 nav a {
-    color: rgb(255, 255, 255);
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-    padding: 35px;
-    text-align: center;
-    
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #bdbdbd;
-  }
-
-main {
-    grid-column: 1/5;
-    width: 75%;
+	text-decoration:overline;
 }
+
+nav ul {
+    list-style-type: none;
+}
+
+
+
+
 
 h2 {
     border-bottom: 1px solid #000;
@@ -71,6 +62,7 @@ h2 {
 
 .card {
     border: 1px solid #000;
+    display: flexbox;
 }
 
 h3 {
@@ -87,19 +79,16 @@ ul {
   li {
     display: block;
   }
-  li:before {
+ .list:before {
     content: counters(item, ".")". ";
     counter-increment: item;
   }
 
 p {
-
     text-align: center;
 }
 
 footer {
-    grid-column: 1/5;
     background-color: lightblue;
-    width: 77%;
     margin-top: 20px;
 }
