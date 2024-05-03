@@ -45,14 +45,6 @@ nav a:hover {
 	text-decoration:overline;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
-
-
-
-
 h2 {
     border-bottom: 1px solid #000;
     padding-bottom: 3px;
@@ -79,7 +71,7 @@ ul {
   li {
     display: block;
   }
- .list:before {
+  li:before {
     content: counters(item, ".")". ";
     counter-increment: item;
   }

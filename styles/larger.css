@@ -2,12 +2,12 @@
 
 @media (min-width: 1150px){
 
-    nav ul {
+    nav {
         list-style-type: none;
         display: flex;
     }
     
-    nav ul li {
+    nav a {
         flex: 1 1 100%;
     }
 
