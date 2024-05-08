@@ -20,7 +20,8 @@
         <img src="images/profile_picture.jpeg" alt="Profile Picture">
         <h1>Chase Wallace</h1>
     </header>
-    <nav>
+    <button id="menu"></button>
+    <nav class="navigation">
         <a href="#" class="active">Home</a>
         <a href="lesson03/chamber-site-plan.html">Site Plan</a>
         <a href="chamber/">Chamber</a>
@@ -52,7 +53,11 @@
             <br><br>
             <br><br>
         </section>
-    </main>
+        <section class="card">
+            <h3>Map</h3>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34472.217259671146!2d-111.84983672066062!3d41.848564595386016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875488338a2555e9%3A0xf961d892877930b7!2sSmithfield%2C%20UT%2084335!5e0!3m2!1sen!2sus!4v1715199603885!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+        </section>
+     </main>
     <footer>
         <p>
             &copy; <span id="year"></span><br>
@@ -64,5 +69,6 @@
         </p>
     </footer>
 <script src="scripts/getdates.js"></script>
+<script src="scripts/hamburger.js"></script>
 </body>
 </html>
