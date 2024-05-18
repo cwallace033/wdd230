@@ -29,8 +29,8 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        gap: 10px; /* Adjust as needed */
-        height: 100vh; /* Adjust as needed for the overall height */
+        gap: 10px; 
+        height: 50vh; 
       }
       
       .item {
