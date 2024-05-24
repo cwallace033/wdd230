@@ -41,7 +41,6 @@
         text-align: center;
       }
       
-      /* Placing the items */
       .item:nth-child(1) {
         grid-column: 1;
         grid-row: 1;
@@ -76,7 +75,15 @@
         grid-column: 3;
         grid-row: 3;
       }
+
+      .action {
+        position: absolute;
+        top: 50%;
+      }
       
+      .action p {
+        display: block;
+      }
 
     
 }
