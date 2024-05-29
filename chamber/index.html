@@ -18,7 +18,7 @@
 </head>
 <body>
     <header>
-        <img src="images/smithfield_logo.png" alt="Logo">
+        <img src="images/smithfield_logo.webp" alt="Logo">
         <h1>Smithfield City Chamber of Commerce</h1>
     </header>
     <button id="menu"></button>
@@ -33,13 +33,22 @@
             <input type="checkbox" id="toggleSwitch">
             <span class="slider round"></span>
         </label>
-        <div class="hero_container">
-            <img class="hero" src="images/smithfield_city.png" alt="">
+
+        <div class="hero">
+            <picture>
+                <source srcset="images/small-wdd230-org.webp" media="(max-width: 500px)">
+                <source srcset="images/medium-wdd230-org.webp" media="(max-width: 1000px)">
+                <source srcset="images/large-wdd230-org.webp" media="(max-width: 1500px)">
+                <img src="images/large-wdd230-org.webp" alt="large-wdd230-org" width="1278" height="800">
+            </picture>
+        </div>
+        <!-- <div class="hero_container">
+            <img class="hero" src="images/smithfield_city.webp" alt="">
             <section class="action">
                 <h2>Join Now</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quas esse ut velit modi optio praesentium! Consequuntur asperiores, tempore, laboriosam alias nesciunt deleniti sit dicta in temporibus dolorem placeat. Ea?</p>
             </section>
-        </div>
+        </div> -->
 
         <div class="container">
             <div class="item">
@@ -54,7 +63,9 @@
             <div class="item">
                 <h3>Weather</h3>
                 <p>Smithfield, Utah</p>
-                <p>Input weather here</p>
+                <p class="temperature">55</p>
+                <p class="windspeed">4</p>
+                <p id="windchill"></p>
             </div>
             <div class="item">
                 <h3>Business Shoutout</h3>
@@ -86,5 +97,6 @@
 <script src="scripts/getdates.js"></script>
 <script src="scripts/hamburger.js"></script>
 <script src="scripts/darkmode.js"></script>
+<script src="scripts/windspeed.js"></script>
 </body>
 </html>

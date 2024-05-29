@@ -117,7 +117,7 @@ nav a:hover {
 	display: block;
 }
 
-.hero {
+.hero img{
 	width: 100%;
 	display: block;
 	margin-bottom: 1rem;
@@ -162,9 +162,16 @@ nav a:hover {
 
 .item {
     border: 1px solid #000;
-    display: block;
-	text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
 
+.item p {
+    display: block;
+    margin: 0;
 }
 
 h3 {
