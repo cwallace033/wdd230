@@ -12,6 +12,10 @@ header {
     padding-top: 1%;
 }
 
+header img {
+	padding: 1rem;
+}
+
 /* The switch - the box around the slider */
 .switch {
 	position: absolute;
@@ -189,6 +193,7 @@ footer {
     margin-top: 20px;
 	margin-bottom: 0px;
 	text-align: center;
+	padding: 1rem;
 }
 
 .dark-mode {
