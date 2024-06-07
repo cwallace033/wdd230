@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development, Chase Wallace, Chamber Site">
+    <meta name="author" content="Chase Wallace">
+    <meta property="og:title" content="WDD 230 - Chamber">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.explorelogan.com/assets/files/Utah%20Stops%20on%20the%20Way.jpg">
+    <meta property="og:url" content="https://cwallace033.github.io/wdd230/chamber" >
+    <title>Smithfield Chamber of Commerce Discover</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="chamber/favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/smithfield_logo.webp" alt="Logo">
+        <h1>Smithfield City Chamber of Commerce</h1>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <a href="/chamber/index.html">Home</a>
+        <a href="/chamber/discover.html">Discover</a>
+        <a href="">Directory</a>
+        <a href="">Membership</a>
+    </nav>
+    <main>
+        <label class="switch">
+            <input type="checkbox" id="toggleSwitch">
+            <span class="slider round"></span>
+        </label>
+        <div class="discover_container">
+            <aside class="sidebar">
+                <div class="sidebar_item">
+                    <h2>Smithfield City</h2>
+                    <img src="/chamber/images/old_smithfield.webp" alt="old smithfield">
+                </div>
+                <div class="sidebar_item">
+                    <h2>Demographics</h2>
+                    <p>The first population count of Smithfield was in 1890. There were about 1,500 people. The current population of Smithfield is about 15,172</p>
+                </div>
+                <div class="sidebar_item">
+                    <h2>History</h2>
+                    <p>Smithfield was founded in 1859. It was named after John Glover Smith. Since it was founded Smithfield has never had a population decrease.</p>
+                </div>
+                <div class="sidebar_item">
+                    <h2>Activities</h2>
+                    <p>There are many fun things to do in Smithfield, Utah. There is a beautiful canyon full of campsites and hiking trails. Smithfield has many parks to play at as well. It also has a splash pad for the hot summer months.</p>
+                </div>
+                <div class="sidebar_item">
+                    <h2>Visits:</h2>
+                    <p><span class="visits"></span></p>
+                </div>
+            </aside>
+            <section class="discover_main_content">
+                <figure>
+                    <img src="/chamber/images/smithfield_sign.webp" alt="smitfield sign" loading="lazy">
+                    <figcaption>Smithfield Sign</figcaption>
+                </figure>
+                <figure>
+                    <img src="/chamber/images/smithfield_party.webp" alt="Smithfield party" loading="lazy">
+                    <figcaption>Smithfield party</figcaption>
+                </figure>
+                <figure>
+                    <img src="/chamber/images/smithfield_splashpad.webp" alt="Splashpad" loading="lazy">
+                    <figcaption>Smithfield Splashpad</figcaption>
+                </figure>
+                <figure>
+                    <img src="/chamber/images/mack_park.webp" alt="Mack Park" loading="lazy">
+                    <figcaption>Mack Park</figcaption>
+                </figure>
+                <figure>
+                    <img src="/chamber/images/smithfield_mountains.webp" alt="Mountains" loading="lazy">
+                    <figcaption>Sky View High School Hill</figcaption>
+                </figure>
+                <figure>
+                    <img src="/chamber/images/smithfield_canyon.webp" alt="Canyon" loading="lazy">
+                    <figcaption>Smithfield Canyon</figcaption>
+                </figure>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>info@notafakeemail.org</p>
+        <div class="bottom">
+            <p>
+                &copy; <span id="year"></span>
+            </p>
+            <p>|</p>
+            <p>Chase Wallace
+            </p>
+            <p>|</p>
+            <p>WDD 230 
+            </p>
+            <p>|</p>
+            <p id="lastModified">
+        </div>
+
+        </p>
+    </footer>
+<script src="scripts/getdates.js"></script>
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/darkmode.js"></script>
+<script src="scripts/windspeed.js"></script>
+<script src="scripts/daysSinceVisit.js"></script>
+</body>
+</html>
