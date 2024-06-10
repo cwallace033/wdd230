@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: darkblue;
+    font-size: .85rem;
+}
+
+.blank {
+    background-color: black;
+}
+
+tr:first-child th {
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+th {
+    background-color: darkgray;
+    font-size: larger;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
