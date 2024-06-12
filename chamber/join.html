@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 230 - Web Frontend Development, Chase Wallace, Chamber Site">
+    <meta name="description" content="WDD 230 - Web Frontend Development, Chase Wallace, Join Site">
     <meta name="author" content="Chase Wallace">
     <meta property="og:title" content="WDD 230 - Join">
     <meta property="og:type" content="website">
@@ -34,7 +34,7 @@
             <span class="slider round"></span>
         </label>
         <div class="formContainer">
-            <form method="get" action="thankyou.htm." class="form1">
+            <form method="get" action="thankyou.html" class="form1">
                 <fieldset>
                     <legend>Personal Information</legend>
             
@@ -52,17 +52,17 @@
 
                     <label for="business">Business Name <input type="text" name="business" id="business" required></label>
 
-                    <label for="position">Title or Position <input type="text" name="title" id="title" pattern="[a-zA-Z\s-] {7,}"></label>
+                    <label for="title">Title or Position <input type="text" name="title" id="title" pattern="[a-zA-Z\s-] {7,}"></label>
 
-                    <label for="busDescription">Business Description<input type="text" name="busDescription" id="busDescription"></label>
+                    <label for="busDescription">Business Description<input type="textarea" name="busDescription" id="busDescription"></label>
                 </fieldset>
 
                 <fieldset>
                     <legend>Membership Level</legend>
-                    <label for="membership"><input type="radio" name="np" id="np"> NP Membership</label>
-                    <label for="membership"><input type="radio" name="bronze" id="bronze"> Bronze</label>
-                    <label for="membership"><input type="radio" name="silver" id="silver"> Silver</label>
-                    <label for="membership"><input type="radio" name="gold" id="gold"> Gold</label>
+                    <label for="np"><input type="radio" name="np" id="np"> NP Membership</label>
+                    <label for="bronze"><input type="radio" name="bronze" id="bronze"> Bronze</label>
+                    <label for="silver"><input type="radio" name="silver" id="silver"> Silver</label>
+                    <label for="gold"><input type="radio" name="gold" id="gold"> Gold</label>
                 </fieldset>
                 <input type="hidden" name="hidden" id="hidden">
                 <input type="submit" name="subButton" id="subButton" value="Join the Chamber">
@@ -121,7 +121,6 @@
             <p id="lastModified">
         </div>
 
-        </p>
     </footer>
 <script src="scripts/getdates.js"></script>
 <script src="scripts/hamburger.js"></script>

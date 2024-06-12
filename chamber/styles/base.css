@@ -278,7 +278,8 @@ footer {
 .form1 input[type="tel"], 
 .form1 input[type="email"], 
 .form1 input[type="password"], 
-.form1 input[type="rating"] {
+.form1 input[type="rating"],
+.form1 input[type="textarea"] {
     display: block;
     border: solid 1px gray;
     border-radius: 6px;
