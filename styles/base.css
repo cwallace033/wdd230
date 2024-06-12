@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+:root {
+    --primary-color: lightblue;
+    --background-color: #333;
+    --active-color: lightsalmon;
+}
+
 body {
     font-family: 'poppins', arial, sans-serif;
 }
 
 header {
-    background-color: lightblue;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +48,7 @@ h1 {
 
 nav {
 	list-style: none;
-	background-color: #333;
+	background-color: var(--background-color);
 	color: #fff;
 }
 
@@ -64,7 +70,7 @@ nav a:hover {
 }
 
 .active::first-line {
-	color: lightsalmon;
+	color: var(--active-color);
 }
 
 
@@ -119,9 +125,6 @@ p {
 	height: 100%;
 	object-fit: cover;
 }
-
-
-
 
 .herolabel {
 	position: absolute;
