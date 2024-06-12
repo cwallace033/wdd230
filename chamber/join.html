@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development, Chase Wallace, Chamber Site">
+    <meta name="author" content="Chase Wallace">
+    <meta property="og:title" content="WDD 230 - Join">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.explorelogan.com/assets/files/Utah%20Stops%20on%20the%20Way.jpg">
+    <meta property="og:url" content="https://cwallace033.github.io/wdd230/chamber" >
+    <title>Join</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/smithfield_logo.webp" alt="Logo">
+        <h1>Smithfield City Chamber of Commerce</h1>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="">Directory</a>
+        <a href="#" class="active">Join</a>
+    </nav>
+    <main>
+        <label class="switch">
+            <input type="checkbox" id="toggleSwitch">
+            <span class="slider round"></span>
+        </label>
+        <div class="formContainer">
+            <form method="get" action="thankyou.htm." class="form1">
+                <fieldset>
+                    <legend>Personal Information</legend>
+            
+                    <label for="fname">First Name<input type="text" name="fname" id="fname" required></label>
+
+                    <label for="lname">Last Name <input type="text" name="lname" id="lname" required></label>
+
+                    <label for="email">Email Address <input type="email" name="email" id="email" required placeholder="example@email.com"></label>
+
+                    <label for="phone">Phone Number <input type="tel" name="phone" id="phone" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Business Information</legend>
+
+                    <label for="business">Business Name <input type="text" name="business" id="business" required></label>
+
+                    <label for="position">Title or Position <input type="text" name="title" id="title" pattern="[a-zA-Z\s-] {7,}"></label>
+
+                    <label for="busDescription">Business Description<input type="text" name="busDescription" id="busDescription"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <label for="membership"><input type="radio" name="np" id="np"> NP Membership</label>
+                    <label for="membership"><input type="radio" name="bronze" id="bronze"> Bronze</label>
+                    <label for="membership"><input type="radio" name="silver" id="silver"> Silver</label>
+                    <label for="membership"><input type="radio" name="gold" id="gold"> Gold</label>
+                </fieldset>
+                <input type="hidden" name="hidden" id="hidden">
+                <input type="submit" name="subButton" id="subButton" value="Join the Chamber">
+            </form>
+
+            <section class="membershipInfo">
+                <h2>Membership Levels and Benefits</h2>
+
+                <h3>Np Membership (free)</h3>
+                <ul>
+                    <li>Access to networking events</li>
+                    <li>Basic listing in the online directory</li>
+                    <li>Monthly newsletter subscription</li>
+                    <li>Participation in community service projects</li>
+                </ul>
+
+                <h3>Bronze Membership ($100/year)</h3>
+                <ul>
+                    <li>All benefits of NP Membership</li>
+                    <li>Enhanced directory listing with logo</li>
+                    <li>Discounts on event fees</li>
+                    <li>Access to members-only workshops</li>
+                </ul>
+
+                <h3>Silver Membership ($250/year)</h3>
+                <ul>
+                    <li>All benefits of Bronze Membership</li>
+                    <li>Priority placement in the online directory</li>
+                    <li>Two free event tickets per year</li>
+                    <li>Business spotlight in the monthly newsletter</li>
+                </ul>
+
+                <h3>Gold Membership ($500/year)</h3>
+                <ul>
+                    <li>All benefits of Silver Membership</li>
+                    <li>Exclusive sponsorship opportunities</li>
+                    <li>Invitations to VIP events</li>
+                    <li>Dedicated support from Chamber staff</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>info@notafakeemail.org</p>
+        <div class="bottom">
+            <p>
+                &copy; <span id="year"></span>
+            </p>
+            <p>|</p>
+            <p>Chase Wallace
+            </p>
+            <p>|</p>
+            <p>WDD 230 
+            </p>
+            <p>|</p>
+            <p id="lastModified">
+        </div>
+
+        </p>
+    </footer>
+<script src="scripts/getdates.js"></script>
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/darkmode.js"></script>
+<script src="scripts/formDate.js"></script>
+</body>
+</html>

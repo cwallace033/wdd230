@@ -95,5 +95,10 @@
       .discover_main_content figure:hover {
         box-shadow: 0 16px 32px rgba(0, 0, 0, 0.9);
       }
+
+      .formContainer{
+        grid-template-columns: 1fr 1fr;
+      }
+      
 }
 
