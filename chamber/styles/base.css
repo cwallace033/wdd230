@@ -218,11 +218,12 @@ footer {
 
 .discover_main_content {
     display: grid;
-    gap: 20px;
+    gap: 1rem;
 }
 
 .discover_main_content figure {
     margin: 0;
+	max-width: 500px;
     padding: 0;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -231,6 +232,8 @@ footer {
 
 .discover_main_content img {
     width: 100%;
+	max-width: 450px;
+	margin: 10px auto;
     height: auto;
     display: block;
 }
@@ -238,6 +241,7 @@ footer {
 .discover_main_content figcaption {
     padding: 10px;
     text-align: center;
+	font-size: 1.3rem;
 }
 
 
@@ -249,6 +253,7 @@ footer {
 	padding: 15px;
 	margin-bottom: 3rem;
 	border: 1px solid black;
+	font-size: 1.5rem;
 	border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
