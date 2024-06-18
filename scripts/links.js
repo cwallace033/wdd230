@@ -7,7 +7,7 @@ const weeksContainer = document.querySelector('#weeks');
 async function getLinksData(url) {
     const response = await fetch(url);
     const data = await response.json();
-    displayLinks(data.weeks);
+    displayLinks(data.lessons);
 }
 
 
