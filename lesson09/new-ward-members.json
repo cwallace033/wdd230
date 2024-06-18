@@ -1,0 +1,25 @@
+{
+    "wardInformation": {
+        "familyName": "Smith",
+        "moveInDate": "2024-06-18",
+        "numOfPeople": 3,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+            "name": "Mike Smith",
+            "gender": "Male",
+            "birthdate": "1999-02-17"
+            },
+            {
+            "name": "Amy Smith",
+            "gender": "Female",
+            "birthdate": "1999-08-06"
+            },
+            {
+            "name": "Connor Smith",
+            "gender": "Male",
+            "birthdate": "2022-05-08"
+            }
+        ]
+    }
+}
