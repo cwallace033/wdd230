@@ -23,27 +23,35 @@ async function getLinksData(url) {
 }
 
 const displayLinks = (lessons) => {
+    
+    let linksList = document.createElement('ul');
+
     lessons.forEach((lesson) => {
-        let lessonItem = document.createElement('section');
-        let lessonTitle = document.createElement('h4');
-        let linksList = document.createElement('ul');
+        let lessonItem = document.createElement('li');
+        let lessonTitle = document.createElement('span');
         
-        lessonTitle.textContent = `Lesson ${lesson.lesson}`;
+        
+        lessonTitle.textContent = `Lesson ${lesson.lesson} | `;
         lessonItem.appendChild(lessonTitle);
 
-        lesson.links.forEach((link) => {
-            let listItem = document.createElement('li');
+        lesson.links.forEach((link, index) => {
             let anchor = document.createElement('a');
 
             anchor.href = baseURL + link.url;
             anchor.textContent = link.title;
-            listItem.appendChild(anchor);
-            linksList.appendChild(listItem);
+            lessonItem.appendChild(anchor);
+
+            if (index < lesson.links.length - 1) {
+                let separator = document.createTextNode(' | ');
+                lessonItem.appendChild(separator);
+            }
         });
 
-        lessonItem.appendChild(linksList);
-        weeksContainer.appendChild(lessonItem);
+        linksList.appendChild(lessonItem);
+        
     });
+
+    weeksContainer.appendChild(linksList);
 }
 
 getLinksData(linksURL);
