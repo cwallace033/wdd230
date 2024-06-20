@@ -23,7 +23,7 @@ async function getBusinessData(url) {
         if (response.ok) {
             const data = await response.json();
             if (data && data.companies) {
-                displayLinks(data.companies);
+                displayBusiness(data.companies);
             } else {
                 console.error('JSON data does not contain lessons property');
             }
