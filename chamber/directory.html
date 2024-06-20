@@ -23,9 +23,9 @@
     </header>
     <button id="menu"></button>
     <nav class="navigation">
-        <a href="#" class="active">Home</a>
+        <a href="index.html">Home</a>
         <a href="discover.html">Discover</a>
-        <a href="directory.html">Directory</a>
+        <a href="directory.html" class="active">Directory</a>
         <a href="join.html">Join</a>
     </nav>
     <main>
@@ -33,43 +33,17 @@
             <input type="checkbox" id="toggleSwitch">
             <span class="slider round"></span>
         </label>
-
-        <div class="hero_container">
-            <img class="hero" src="images/smithfield_city.webp" alt="">
-            <section class="action">
-                <h2>Join Now</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quas esse ut velit modi optio praesentium! Consequuntur asperiores, tempore, laboriosam alias nesciunt deleniti sit dicta in temporibus dolorem placeat. Ea?</p>
-            </section>
+        <div class="directory_container">
+            <h1>Business Directory</h1>
+            <div class="directory_menu">
+                <button id="grid">Grid</button>
+                <button id="list">List</button>
+            </div>
+            <hr>
+            <article class="grid">
+                <div id="business_container"></div>
+            </article>
         </div>
-
-        <div class="container">
-            <div class="item">
-                <h3>Events</h3>
-            </div>
-            <div class="item">
-                <h3>Events</h3>
-            </div>
-            <div class="item">
-                <h3>Events</h3>
-            </div>
-            <div class="item">
-                <h3>Weather</h3>
-                <p>Smithfield, Utah</p>
-                <p class="temperature">59</p>
-                <p class="windspeed">12</p>
-                <p id="windchill"></p>
-            </div>
-            <div class="item">
-                <h3>Business Shoutout</h3>
-            </div>
-            <div class="item">
-                <h3>Chamber Meetings</h3>
-            </div>
-            <div class="item">
-                <h3>More Info</h3>
-            </div>
-          </div>
-
     </main>
     <footer>
         <p>info@notafakeemail.org</p>
@@ -92,6 +66,6 @@
 <script src="scripts/getdates.js"></script>
 <script src="scripts/hamburger.js"></script>
 <script src="scripts/darkmode.js"></script>
-<script src="scripts/windspeed.js"></script>
+<script src="scripts/display.js"></script>
 </body>
 </html>

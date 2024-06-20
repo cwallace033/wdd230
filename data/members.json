@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "Lee's Marketplace",
+            "address": "850 S Main St, Smithfield, UT 84335",
+            "phone": "435-563-6251",
+            "website": "https://leesmarketplace.com",
+            "image": "https://leesmarketplace.com/logo.png",
+            "membership": "gold"
+        },
+        {
+            "name": "Gossner Foods",
+            "address": "1051 N 1000 W, Logan, UT 84321 (Near Smithfield)",
+            "phone": "435-713-6100",
+            "website": "https://gossner.com",
+            "image": "https://gossner.com/logo.png",
+            "membership": "silver"
+        },
+        {
+            "name": "Pepperidge Farm",
+            "address": "901 N Main St, Richmond, UT 84333 (Near Smithfield)",
+            "phone": "435-258-2418",
+            "website": "https://pepperidgefarm.com",
+            "image": "https://pepperidgefarm.com/logo.png",
+            "membership": "bronze"
+        },
+        {
+            "name": "Schreiber Foods",
+            "address": "885 N Main St, Smithfield, UT 84335",
+            "phone": "435-563-1300",
+            "website": "https://schreiberfoods.com",
+            "image": "https://schreiberfoods.com/logo.png",
+            "membership": "gold"
+        },
+        {
+            "name": "Westates Companies",
+            "address": "760 W 200 S, Smithfield, UT 84335",
+            "phone": "435-563-3631",
+            "website": "https://westates.com",
+            "image": "https://westates.com/logo.png",
+            "membership": "silver"
+        },
+        {
+            "name": "Icon Health & Fitness",
+            "address": "1500 S 1000 W, Logan, UT 84321 (Near Smithfield)",
+            "phone": "435-750-5000",
+            "website": "https://iconfitness.com",
+            "image": "https://iconfitness.com/logo.png",
+            "membership": "bronze"
+        },
+        {
+            "name": "Cache Valley Electric",
+            "address": "875 N 1000 W, Logan, UT 84321 (Near Smithfield)",
+            "phone": "435-752-6405",
+            "website": "https://cve.com",
+            "image": "https://cve.com/logo.png",
+            "membership": "gold"
+        }
+    ]
+}
