@@ -330,11 +330,6 @@ footer {
 }
 
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 
 .directory_container main {
 	margin: 0 auto;
@@ -347,7 +342,7 @@ footer {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #bed;
+	background-color: lightblue;
 	text-align: center;
 }
 
@@ -364,10 +359,12 @@ footer {
 
 .grid {
     display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));    grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));    
+	grid-gap: 10px;
+	align-items: center;
 }
 
-.grid section {
+.grid section, .directory_container h1 {
 	text-align: center;
 }
 
@@ -405,7 +402,7 @@ footer {
 }
 
 .list section:nth-child(even) {
-	background-color: #bed;
+	background-color: lightblue;
 }
 
 .directory_container section h3 {
@@ -420,7 +417,6 @@ footer {
 .directory_container section a {
 	font-size: 0.85rem;
 	color: navy;
-	letter-spacing: 1.1pt;
 }
 
 .directory_container img {
