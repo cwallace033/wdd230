@@ -361,7 +361,6 @@ footer {
     display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));    
 	grid-gap: 10px;
-	align-items: center;
 }
 
 .grid section, .directory_container h1 {

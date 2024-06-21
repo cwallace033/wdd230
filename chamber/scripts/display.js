@@ -63,7 +63,7 @@ const displayBusiness = (companies) => {
         website.target = '_blank';
         companySection.appendChild(website);
 
-        businessContainer.appendChild(companySection);
+        display.appendChild(companySection);
     });
 }
 
