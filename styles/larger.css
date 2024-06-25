@@ -18,6 +18,7 @@
     .card {
         border: 1px solid #000;
         display: inline-block;
+        vertical-align: top;
         width: 47%;
         margin-left: 1.4%;
     }
