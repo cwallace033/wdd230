@@ -40,7 +40,13 @@
         </label>
 
         <div class="hero_container">
-            <img class="hero" src="images/smithfield_city.webp" alt="">
+            <picture class="hero">
+                <source srcset="images/smithfield_city_small.webp" media="(max-width: 500px)">
+                <source srcset="images/smithfield_city_med.webp" media="(max-width: 1000px)">
+                <source srcset="images/smithfield_city.webp" media="(max-width: 1500px)">
+                <img class="hero" src="images/smithfield_city.webp" alt="Smithfield City">
+            </picture>
+            
             <section class="action">
                 <h2>Join Now</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quas esse ut velit modi optio praesentium! Consequuntur asperiores, tempore, laboriosam alias nesciunt deleniti sit dicta in temporibus dolorem placeat. Ea?</p>
