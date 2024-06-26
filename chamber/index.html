@@ -17,6 +17,11 @@
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
+    <div id="meeting-banner" class="banner">
+        <p>Chamber of Commerce Meet and Greet on Wednesday at 7:00 pm</p>
+        <button id="close-banner">X</button>
+    </div>
+
     <header>
         <img src="images/smithfield_logo.webp" alt="Logo">
         <h1>Smithfield City Chamber of Commerce</h1>
@@ -55,9 +60,15 @@
             <div class="item">
                 <h3>Weather</h3>
                 <p>Smithfield, Utah</p>
-                <p class="temperature">59</p>
-                <p class="windspeed">12</p>
+                <p>The current temperature in Smithfield, Utah is <span id="current-temp"></span></p>
+                <p>Current weather: <span id="weather-desc"></span>.</p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                </figure>
+                <p>Wind speed: <span class="windspeed"></span> mph</p>
                 <p id="windchill"></p>
+
+                <div id="forecast"></div>
             </div>
             <div class="item">
                 <h3>Business Shoutout</h3>
@@ -87,9 +98,10 @@
             <p id="lastModified">
         </div>
     </footer>
+<script src="scripts/banner.js"></script>
 <script src="scripts/getdates.js"></script>
 <script src="scripts/hamburger.js"></script>
 <script src="scripts/darkmode.js"></script>
-<script src="scripts/windspeed.js"></script>
+<script src="scripts/weather.js"></script>
 </body>
 </html>
