@@ -32,10 +32,6 @@ function displayResults (data) {
     let desc =  currentWeather.weather[0].description;
     weatherDesc.innerHTML = `${desc}`;
 
-    const iconsrc = `https://openweathermap.org/img/w/${currentWeather.weather[0].icon}.png`
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
-
     const windspeed = currentWeather.wind.speed;
     windSpeed.innerHTML = `${windspeed} mph`;
 
@@ -68,14 +64,15 @@ function displayForecast(forecastList) {
         dayTitle.textContent = day;
         dayContainer.appendChild(dayTitle);
 
-        let totalTemp = 0;
+        let maxTemp = 0;
         dayForecast.forEach(item => {
-            totalTemp += item.main.temp;
+            if (item.main.temp > maxTemp) {
+                maxTemp = item.main.temp;
+            }
         });
-        const avgTemp = totalTemp / dayForecast.length;
         
         const tempElement = document.createElement('p');
-        tempElement.innerHTML = `Avg Temp: ${avgTemp.toFixed(1)}&deg;F`;
+        tempElement.innerHTML = ` High Temp: ${maxTemp.toFixed(1)}&deg;F`;
         dayContainer.appendChild(tempElement);
 
         forecastContainer.appendChild(dayContainer);
