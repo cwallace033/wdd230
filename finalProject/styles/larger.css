@@ -1,0 +1,35 @@
+@media (min-width: 800px){
+
+    nav {
+        display: flex;
+    }
+    
+    nav a {
+        display: block;
+        flex: 1 1 100%;
+    }
+    
+    nav a:hover {
+        text-decoration:overline;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .homeInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    
+    .homeItem:nth-child(1),
+    .homeItem:nth-child(2) {
+        grid-column: span 1;
+    }
+    
+    .homeItem:nth-child(3),
+    .homeItem:nth-child(4) {
+        grid-column: span 2;
+    }
+}

@@ -1,0 +1,167 @@
+body {
+	width: 100%;
+    font-size: 1.1rem;
+}
+header {
+	background-color: #34485D;
+	color: white;
+    text-align: center;
+    padding: 1%;
+}
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "🅇";
+}
+
+nav {
+	list-style: none;
+	background-color: #34485D;
+}
+
+nav a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+.open a {
+	display: block;
+}
+
+.hero {
+	width: 100%;
+	max-width: 100%;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+.hero_container {
+	position: relative;
+}
+
+.action {
+	position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    text-align: center;
+	max-width: 50%;
+}
+
+.action a {
+	display: inline-block;
+	padding: 0.5rem;
+	color: white;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.action a:hover {
+	background-color: #6EE4FE;
+	color: black;
+
+}
+
+.active {
+	text-decoration: underline;
+	color: #6EE4FE;
+  }
+
+  .homeItem {
+    border: 1px solid #000;
+    display: flex;
+	background-color: lightgray;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.homeItem p {
+    display: block;
+    margin: 0;
+}
+
+.homeItem li {
+    text-align: left;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+.banner {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f6d967;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.banner p {
+    margin: 0;
+    display: inline;
+}
+
+.banner button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#weather-info {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 20px 0;
+}
+
+#weather-info h3 {
+    margin-top: 0;
+}
+
+#weather-details {
+    margin-top: 10px;
+}
+
+#weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}

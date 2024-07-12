@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development, Chase Wallace, Final Project">
+    <meta name="author" content="Chase Wallace">
+    <meta property="og:title" content="WDD 230 - Final">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.islandlifemexico.com/wp-content/uploads/2021/01/cozumel-beach-4.jpg.webp">
+    <meta property="og:url" content="https://cwallace033.github.io/wdd230/finalProject" >
+    <title>Scoots Rentals</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div id="temp-banner" class="banner">
+        <p>The high for today is <span class="tempHigh"></span>&deg;F</p>
+        <button id="close-banner">X</button>
+    </div>
+
+    <header>
+        <h1>Scoots Rentals</h1>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="rentals.html">Rentals</a>
+        <a href="reservation.html" class="active" >Reservations</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <main>
+        <div class="hero_container">
+            <picture class="hero">
+                <img class="hero" src="images/cozumelCoast.webp" alt="Cozumel coast">
+            </picture>
+        </div>
+
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="year"></span>
+        </p>
+        <p>|</p>
+        <p>Chase Wallace
+        </p>
+        <p>|</p>
+        <p>WDD 230 - Final Project
+        </p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+
+</body>
+</html>
