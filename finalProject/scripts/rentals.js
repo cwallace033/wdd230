@@ -1,4 +1,4 @@
-const rentalURL = "data/rentals.json";
+const rentalURL = "data/rental.json";
 
 async function getLinksData(url) {
     try {
