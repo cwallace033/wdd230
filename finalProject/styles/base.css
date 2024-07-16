@@ -3,7 +3,7 @@ body {
     font-size: 1.1rem;
 }
 header {
-	background-color: #34485D;
+	background-color: #28598e;
 	color: white;
     text-align: center;
     padding: 1%;
@@ -28,7 +28,7 @@ header {
 
 nav {
 	list-style: none;
-	background-color: #34485D;
+	background-color: #6e8b83;
 }
 
 nav a {
@@ -191,10 +191,26 @@ tbody tr:hover {
     background-color: #777676;
 }
 
+.photos_container {
+    background-color: #d7d7d7;
+    padding: 20px; 
+    border-radius: 10px; 
+    margin: 20px; 
+
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+}
+.photos img {
+    max-width: 100%;
+    margin: 10px auto;
+}
 footer {
     display: inline-flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #34485D;
+    background-color: #28598e;
     color: white;
 }

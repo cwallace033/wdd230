@@ -32,4 +32,17 @@
     .homeItem:nth-child(4) {
         grid-column: span 2;
     }
+
+    .photos {
+        display: flex;
+        justify-content: space-between; 
+        gap: 10px; 
+        padding: 10px 0; 
+        flex-direction: row;
+    }
+    
+    .photos img {
+        width: calc(50% - 5px); 
+        height: auto; 
+    }
 }
