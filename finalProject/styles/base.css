@@ -160,8 +160,41 @@ h4 {
     height: 50px;
 }
 
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 50px auto;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+thead tr {
+    background-color: #17486a;
+    color: #ffffff;
+    text-align: left;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:hover {
+    background-color: #777676;
+}
+
 footer {
     display: inline-flex;
     justify-content: space-around;
     width: 100%;
+    background-color: #34485D;
+    color: white;
 }
