@@ -1,0 +1,69 @@
+{
+    "Max Rental Pricing": {
+      "Reservation": {
+        "Honda Metro Scooter": {
+          "Max Persons": 1,
+          "Half Day (3 hrs)": "$20",
+          "Full Day": "$30"
+        },
+        "Honda Dio Scooter": {
+          "Max Persons": 2,
+          "Half Day (3 hrs)": "$30",
+          "Full Day": "$40"
+        },
+        "Honda PCX150 Scooter": {
+          "Max Persons": 2,
+          "Half Day (3 hrs)": "$40",
+          "Full Day": "$50"
+        },
+        "Honda Pioneer ATV": {
+          "Max Persons": 4,
+          "Half Day (3 hrs)": "$50",
+          "Full Day": "$70"
+        },
+        "Jeep Wrangler - 4 door with a/c": {
+          "Max Persons": 5,
+          "Half Day (3 hrs)": "$70",
+          "Full Day": "$100"
+        },
+        "Jeep Wrangler - 2 door": {
+          "Max Persons": 4,
+          "Half Day (3 hrs)": "$60",
+          "Full Day": "$85"
+        }
+      },
+      "Walk-In": {
+        "Honda Metro Scooter": {
+          "Max Persons": 1,
+          "Half Day (3 hrs)": "$25",
+          "Full Day": "$35"
+        },
+        "Honda Dio Scooter": {
+          "Max Persons": 2,
+          "Half Day (3 hrs)": "$35",
+          "Full Day": "$45"
+        },
+        "Honda PCX150 Scooter": {
+          "Max Persons": 2,
+          "Half Day (3 hrs)": "$45",
+          "Full Day": "$55"
+        },
+        "Honda Pioneer ATV": {
+          "Max Persons": 4,
+          "Half Day (3 hrs)": "$60",
+          "Full Day": "$80"
+        },
+        "Jeep Wrangler - 4 door with a/c": {
+          "Max Persons": 5,
+          "Half Day (3 hrs)": "$85",
+          "Full Day": "$125"
+        },
+        "Jeep Wrangler - 2 door": {
+          "Max Persons": 4,
+          "Half Day (3 hrs)": "$70",
+          "Full Day": "$90"
+        }
+      }
+    }
+  }
+  
