@@ -1,4 +1,4 @@
-@media (min-width: 800px){
+@media (min-width: 850px){
 
     nav {
         display: flex;
@@ -45,4 +45,13 @@
         width: calc(50% - 5px); 
         height: auto; 
     }
+
+    .formContainer{
+        grid-template-columns: 1fr 1fr;
+      }
+
+    .rentalInfo{
+        font-size: 1.2rem;
+    }
+
 }

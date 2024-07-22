@@ -16,11 +16,6 @@
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
-    <div id="temp-banner" class="banner">
-        <p>The high for today is <span class="tempHigh"></span>&deg;F</p>
-        <button id="close-banner">X</button>
-    </div>
-
     <header>
         <h1>Scoots Rentals</h1>
     </header>
@@ -38,6 +33,81 @@
             </picture>
         </div>
 
+        <div class="formContainer">
+            <form method="get" action="thankyou.html" class="form1">
+                <fieldset>
+                    <legend>Personal Information</legend>
+            
+                    <label for="fname">First Name<input type="text" name="fname" id="fname" required></label>
+
+                    <label for="lname">Last Name <input type="text" name="lname" id="lname" required></label>
+
+                    <label for="email">Email Address <input type="email" name="email" id="email" required placeholder="example@email.com"></label>
+
+                    <label for="phone">Phone Number <input type="tel" name="phone" id="phone" required></label>
+
+                    <label for="street">Street Name <input type="text" name="street" id="street" required></label>
+
+                    <label for="city">City <input type="text" name="city" id="city" required></label>
+
+                    <label for="country">Country <input type="text" name="country" id="country" required></label>
+
+                    <label for="cruise">Cruise Line <input type="text" name="cruise" id="cruise"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Rental Information</legend>
+
+                    <label for="date">Rental Date<input type="date" name="date" id="date" required></label>
+
+                    <label for="full"><input type="radio" name="amount" id="full"> Full Day</label>
+
+                    <label for="half"><input type="radio" name="amount" id="half"> Half Day</label>
+
+                    <label for="dropdown">Choose a vehicle:</label>
+                    <select id="dropdown" name="dropdown">
+                        <option value="option">Select vehicle</option>
+                        <option value="option1">Honda Metro Scooter</option>
+                        <option value="option2">Honda Dio Scooter</option>
+                        <option value="option3">Honda PCX 150 Scooter</option>
+                        <option value="option4">Honda Pioneer ATV</option>
+                        <option value="option5">Jeep Wrangler 4 door</option>
+                        <option value="option6">Jeep Wrangler 2 door</option>
+                    </select>
+
+                    <label for="accomodation">Special Accomodations</label><textarea id="accomodation" rows="4" cols="50" placeholder="Special accomodations needed or desired drop-off location"></textarea>
+                </fieldset>
+                <input type="submit" name="subButton" id="subButton" value="Make Reservation!">
+            </form>
+        
+            <section class="rentalInfo">
+                <h2>Important Rental Rules</h2>
+            <ul>
+                <li>Drivers must be at least 18 years old and possess a valid driver’s license.</li>
+                <br>
+                <li>All rentals require a credit card deposit for security purposes taken at time of vehicle delivery.</li>
+                <br>
+                <li>Helmets are mandatory for motor scooter and ATV rentals.</li>
+                <br>
+                <li>All vehicles must be returned with a full tank of gas.</li>
+                <br>
+                <li>Driving under the influence of alcohol or drugs is strictly prohibited.</li>
+                <br>
+                <li>Off-road driving is only permitted with ATVs and Jeeps.</li>
+                <br>
+                <li>Observe all local traffic laws and regulations.</li>
+                <br>
+                <li>Any damage to the vehicle will be charged to the renter.</li>
+                <br>
+                <li>Late returns will incur additional charges.</li>
+                <br>
+                <li>Please report any mechanical issues immediately to avoid further complications.</li>
+                <br>
+                <li>Passengers are only allowed on vehicles designed to carry more than one person.</li>
+                <br>
+                <li>Rental agreements must be signed and understood before taking the vehicle.</li>
+            </ul>
+            </section>
+        </div>
     </main>
     <footer>
         <p>
