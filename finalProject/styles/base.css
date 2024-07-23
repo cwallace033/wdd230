@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 body {
 	width: 100%;
     font-size: 1.1rem;
 }
+
 header {
 	background-color: #28598e;
 	color: white;
     text-align: center;
     padding: 1%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lora', arial, sans-serif;
+}
+
+p, ul, li {
+    font-family: 'Nunito', Arial, sans-serif;
 }
 #menu {
 	font-size: 1.5rem;
