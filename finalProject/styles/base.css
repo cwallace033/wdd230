@@ -296,6 +296,37 @@ tbody tr:hover {
 
 }
 
+.rentalInfo li {
+    padding-bottom: 2rem;
+}
+
+.card {
+    display: inline;
+    margin-bottom: 1rem;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+h3::first-letter{
+    font-size: 1.5rem;
+}
+
+.card h3 {
+    background-color: #6e8b83;
+}
+
+p {
+    text-align: center;
+}
+
 footer {
     display: inline-flex;
     justify-content: space-around;
